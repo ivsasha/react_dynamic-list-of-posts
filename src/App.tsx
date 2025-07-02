@@ -88,11 +88,11 @@ export const App = () => {
   }
 
   function removeComment(commentId: number) {
-    const updatedCommnets = postComments.filter(com => {
+    const updatedComments = postComments.filter(com => {
       return com.id !== commentId;
     });
 
-    setPostComments(updatedCommnets);
+    setPostComments(updatedComments);
 
     deleteComment(commentId)
       .then(() => {})

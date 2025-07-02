@@ -94,7 +94,7 @@ export const PostDetails: React.FC<PostDetailsProps> = ({
             <button
               data-cy="WriteCommentButton"
               type="button"
-              className="button is-link hidden"
+              className="button is-link"
               onClick={() => {
                 setIsFormOpened(true);
               }}

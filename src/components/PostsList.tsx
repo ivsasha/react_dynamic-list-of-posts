@@ -41,7 +41,6 @@ export const PostsList: React.FC<PostsListProps> = ({
                   data-cy="PostButton"
                   className="button is-link is-light"
                   onClick={() => {
-                    openPost(post);
                     if (isButtonOpenedId === post.id) {
                       setIsButtonOpenedId(0);
                       closePost();
